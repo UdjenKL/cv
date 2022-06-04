@@ -60,3 +60,33 @@ ul {
   margin-top: 5px;
 }
 
+.menu {
+  background-color: #f1f1f1;
+  box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+}
+
+/* Убираем маркеры со списка и произведим выравнивание его элементов в одну линию*/
+.menu li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*к каждому из элементов списка применим одинаковые по количеству отступы по всем краям*/
+.menu li {
+  display: inline-block;
+  vertical-align: top;
+  padding: 35px;
+}
+
+/*При наведении курсора мыши на элемент меню, оно подсвечивалось красноватым оттенком:*/
+.menu li:hover {
+  background-color: #f87777;
+}
+
+/*курсор мыши становился указателем, а цвет текста пункта становился белым*/
+.menu li:hover {
+  background-color: #f87777;
+  cursor: pointer;
+  color: #f8f8f8;
+}
