@@ -1,0 +1,62 @@
+* {
+  /* font-style: arial, serif, sans-serif; */
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+
+  color: white;
+}
+
+body {
+  background: #000 url(img/background.png); /* Фоновый цвет и фоновый рисунок*/
+}
+.container {
+  max-width: 1200px;
+  margin: auto; /* Свойство margin CSS определяет внешний отступ на всех четырёх сторонах элемента. 
+  Auto поровну распределяет все свободное пространство между правым и левым отступами*/
+  padding-top: 20px;
+}
+
+.card {
+  border-radius: 50px;
+  padding: 40px;
+  margin: 10px;
+}
+
+.bg-yellow {
+  background: rgb(86, 11, 148);
+}
+.bg-blue {
+  background: rgb(225, 225, 230);
+}
+.bg-text {
+  background: rgba(55, 56, 34, 0.425);
+}
+
+a {
+  font-size: 0.6em;
+  text-decoration: none;
+}
+
+/* .img {
+  border-radius: 40%;
+  height: 390px;
+  padding-bottom: 10px;
+} */
+
+ul {
+  margin: 30px;
+}
+
+.rounded-img {
+  width: 28%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
+  padding: 0.6em;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+
