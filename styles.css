@@ -5,7 +5,7 @@
 }
 h1 {
   font-size: 50px;
-
+  text-shadow: #eeebeb 0 0 20px;
   color: white;
 }
 
@@ -26,12 +26,14 @@ body {
   margin: 20px;
 }
 
-.bg-yellow {
+.background {
   background: rgb(86, 11, 148);
+  box-shadow: 0 0 80px #fdfafa;
 }
 .bg-blue {
   background: rgb(225, 225, 230);
-  box-shadow: 14px 15px 15px rgba(0, 0, 0, 0.5);
+
+  box-shadow: 0 0 30px #0e0111;
 }
 .bg-text {
   background: rgba(55, 56, 34, 0.425);
@@ -53,8 +55,8 @@ ul {
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
   padding: 0.6em;
-  margin-right: 50px;
-  margin-top: 5px;
+  margin: 15px 40px 10px 10px;
+  box-shadow: 0 0 40px #3f034d;
 }
 
 .menu {
@@ -77,4 +79,8 @@ ul {
   /* background-color: slateblue; */
   cursor: pointer;
   color: #f8f8f8;
+}
+
+.textt-ransform {
+  text-transform: uppercase;
 }
