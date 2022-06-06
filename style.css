@@ -43,7 +43,7 @@ body {
   line-height: 20px;
 }
 .justyfy {
-   text-align: justify;
+  text-align: justify;
 }
 
 a {
@@ -54,9 +54,9 @@ a {
 ul {
   margin: 30px;
 }
-/* .img {
-  align-content: left;
-} */
+.img {
+  float: left;
+}
 .rounded-img {
   width: 28%;
   border-radius: 50%;
