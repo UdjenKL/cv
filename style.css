@@ -77,7 +77,7 @@ ul {
 .menu li {
   display: inline-block;
   vertical-align: top;
-  padding: 35px;
+  padding: 32px;
 }
 
 /*курсор мыши становился указателем, а цвет текста пункта становился белым*/
